@@ -6,6 +6,7 @@ Personal collection of opencode plugins.
 
 | Plugin | Description |
 |--------|-------------|
+| [astra-style](plugins/astra-style.js) | Rewrites the system prompt for DeepSeek models: adds Astra-like progress narration, one-time skill scanning, and end-to-end follow-through rules, and removes conflicting terseness directives. Other models are left untouched. |
 | [bash-timeout](plugins/bash-timeout.js) | Defaults bash tool calls to a 60-second timeout when the model does not specify one. Explicit values from the model are preserved, so longer commands can still opt in to more time. |
 | [utf8-windows](plugins/utf8-windows.js) | On Windows, prefixes bash commands with UTF-8 console settings and sets `PYTHONIOENCODING=utf-8` so non-ASCII output does not turn into mojibake. |
 
